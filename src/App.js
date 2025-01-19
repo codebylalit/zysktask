@@ -132,6 +132,7 @@ const LandingPage = () => {
         )}
       </nav>
       <hr></hr>
+      
       <div className="max-w-4xl mx-auto px-4 pt-12 pb-16 text-center">
         <div className="inline-flex items-center text-sm text-red-500 mb-2 bg-red-50 rounded-full px-3 py-1">
           Fun feature • Check out this new component →
@@ -183,6 +184,7 @@ const LandingPage = () => {
         </div>
       </div>
       <hr></hr>
+
       {/* Features Section */}
       <div className="max-w-5xl mx-auto px-4 py-12">
         <p className="text-red-500 text-center text-sm mb-4 font-medium">
@@ -303,8 +305,9 @@ const LandingPage = () => {
             </div>
           ))}
         </div>
-        {/* Team Support Section */}
 
+
+        {/* Team Support Section */}
         <div className="max-7xl mx-auto px-4 py-12">
           <div className="bg-gray-50 rounded-2xl text-center py-16 px-4">
             <div className="flex justify-center mb-4">
@@ -420,7 +423,7 @@ const LandingPage = () => {
             </div>
           ))}
         </div>
-        {/* Mobile view button */}
+     
         <div className="md:hidden mt-8 text-center">
           <ViewAllButton />
         </div>
