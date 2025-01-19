@@ -9,6 +9,7 @@ import {
   faPuzzlePiece,
   faUsers,
 } from "@fortawesome/free-solid-svg-icons";
+import { faPlay } from "@fortawesome/free-solid-svg-icons";
 
 const features = [
   {
@@ -132,7 +133,7 @@ const LandingPage = () => {
         )}
       </nav>
       <hr></hr>
-      
+
       <div className="max-w-4xl mx-auto px-4 pt-12 pb-16 text-center">
         <div className="inline-flex items-center text-sm text-red-500 mb-2 bg-red-50 rounded-full px-3 py-1">
           Fun feature • Check out this new component →
@@ -145,10 +146,11 @@ const LandingPage = () => {
           engage, and retain more users. Trusted by over 4,000 startups.
         </p>
         <div className="flex justify-center gap-3">
-          <button className="px-6 py-2.5 rounded-full bg-gray-100 text-gray-900 hover:bg-gray-200 transition-colors">
+          <button className="flex items-center gap-2 px-4 py-2 rounded-full bg-white text-gray-700 hover:bg-gray-50 border border-gray-200 transition-colors text-sm font-medium">
+            <FontAwesomeIcon icon={faPlay} className="w-3 h-3" />
             Demo
           </button>
-          <button className="px-6 py-2.5 rounded-full bg-red-500 text-white hover:bg-red-600 transition-colors">
+          <button className="px-4 py-2 rounded-full bg-red-500 text-white hover:bg-red-600 transition-colors text-sm font-medium">
             Sign up
           </button>
         </div>
@@ -306,7 +308,6 @@ const LandingPage = () => {
           ))}
         </div>
 
-
         {/* Team Support Section */}
         <div className="max-7xl mx-auto px-4 py-12">
           <div className="bg-gray-50 rounded-2xl text-center py-16 px-4">
@@ -423,7 +424,7 @@ const LandingPage = () => {
             </div>
           ))}
         </div>
-     
+
         <div className="md:hidden mt-8 text-center">
           <ViewAllButton />
         </div>
