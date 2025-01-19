@@ -362,7 +362,7 @@ const LandingPage = () => {
           {[
             {
               title: "UX review presentations",
-              image: "./assets/image0.png",
+              image: "/assets/image0.png",
               author: {
                 name: "Olivia Rhye",
                 image: "/api/placeholder/32/32",
@@ -373,7 +373,7 @@ const LandingPage = () => {
             },
             {
               title: "Migrating to Linear 101",
-              image: "./assets/image1.png",
+              image: "/assets/image1.png",
               author: {
                 name: "Phoenix Baker",
                 image: "/api/placeholder/32/32",
@@ -384,7 +384,7 @@ const LandingPage = () => {
             },
             {
               title: "Building your API stack",
-              image: "./assets/image2.png",
+              image: "/assets/image2.png",
               author: {
                 name: "Lana Steiner",
                 image: "/api/placeholder/32/32",
